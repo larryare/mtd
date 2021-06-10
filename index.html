@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤓</text></svg>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTD skaičiuotuvas</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+</head>
+<body>
+    <h1>
+        MTD skaičiuoklis
+    </h1>
+    <form id='mortrate'>
+        <label for="x">Mirčių skaičius per tam tikrą laikotarpį 💀 ⏲</label>
+        <input type="number" step="any" id="x"></input><br></br>
+        <label for="y">Vidutinis gyventojų skaičius 👪 🔢</label>
+        <input type="number" step="any" id="y"></input><br></br>
+        <label for="z">Per kiek gyventojų? 👪 ❓</label>
+        <input type="number" step="any" id="z"></input><br></br>
+        <label for="illPeeps">Sirgusiųjų analizuojama liga skaičius 😷</label>
+        <input type="number" step="any" id="illPeeps"></input><br></br>
+        <label for="mortrateres">Mirtingumas 💀</label><p id='mortrateres'></p>
+        <label for="lethality">Mirštamumas 💩</label><p id='lethality'></p>
+        <label for="ligosSansai">Ligos šansai 💱</label><p id='ligosSansai'></p>
+        <label for="newCaseRate">Veikiami asmenys (dažnumas) 🌩</label>
+        <input type="number" step="any" id="newCaseRate"></input><br></br>
+        <label for="notAffectedRate">Neveikiami asmenys (dažnumas) 🙂</label>
+        <input type="number" step="any" id="notAffectedRate"></input><br></br>
+        <label for="illAffected">Liga yra, veikiami asmenys 😷 🌩</label>
+        <input type="number" step="any" id="illAffected"></input><br></br>
+        <label for="notIllAffected">Ligos nėra, veikiami asmenys 🌩</label>
+        <input type="number" step="any" id="notIllAffected"></input><br></br>
+        <label for="illNotAffected">Liga yra, neveikiami asmenys 😷 🙂</label>
+        <input type="number" step="any" id="illNotAffected"></input><br></br>
+        <label for="notIllNotAffected">Ligos nėra, neveikiami asmenys 🙂</label>
+        <input type="number" step="any" id="notIllNotAffected"></input><br></br>
+        <label for="rateRisk">Santykinė rizika</label><p id='rateRisk'></p>
+        <label for="absoluteRisk">Veiksninė rizika</label><p id='absoluteRisk'></p>
+        <label for="etiologicalFraction">Etiologinė veikiamųjų frakcija</label><p id='etiologicalFraction'></p>
+        <label for="popAttrRisk">Veiksninė populiacijos rizika</label><p id='popAttrRisk'></p>
+        <label for="popAttrRiskFraction">Etiologinė populiacijos frakcija</label><p id='popAttrRiskFraction'></p>
+        <label for="sansuSantykis">Šansų santykis</label><p id='sansuSantykis'></p>
+        <h2>Testo patikimumo vertinimas</h2>
+        <label for="jautrumas">Jautrumas</label><p id='jautrumas'></p>
+        <label for="specifiskumas">Specifiškumas</label><p id='specifiskumas'></p>
+        <label for="progTeigTestVert">Prognozinė teigiamojo testo vertė</label><p id='progTeigTestVert'></p>
+        <label for="progNeigTestVert">Prognozinė neigiamojo testo vertė</label><p id='progNeigTestVert'></p>
+        <label for="paplitimas">Paplitimas</label><p id='paplitimas'></p>
+        <input type="submit" value="Skaičiuoti"></input>
+    </form>
+        <div id="home-footer">
+			<p>
+				© 2021 <a href="https://kerezius.lt/">Laurynas Kerežius</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> · <a href="https://kerezius.lt/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+			</p>
+		</div>
+</body>
+<footer>
+</footer>
+</html>
